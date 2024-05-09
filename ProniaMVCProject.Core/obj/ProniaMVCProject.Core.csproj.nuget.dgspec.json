@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj": {}
+    "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj": {
+    "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj",
         "projectName": "ProniaMVCProject.Core",
-        "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj",
+        "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj",
         "packagesPath": "C:\\Users\\Sirac Huseynov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Core\\obj\\",
+        "outputPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sirac Huseynov\\AppData\\Roaming\\NuGet\\NuGet.Config",

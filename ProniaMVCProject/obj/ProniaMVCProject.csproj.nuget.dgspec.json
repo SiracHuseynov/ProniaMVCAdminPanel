@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject\\ProniaMVCProject.csproj": {}
+    "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject\\ProniaMVCProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Business\\ProniaMVCProject.Business.csproj": {
+    "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Business\\ProniaMVCProject.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Business\\ProniaMVCProject.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Business\\ProniaMVCProject.Business.csproj",
         "projectName": "ProniaMVCProject.Business",
-        "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Business\\ProniaMVCProject.Business.csproj",
+        "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Business\\ProniaMVCProject.Business.csproj",
         "packagesPath": "C:\\Users\\Sirac Huseynov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Business\\obj\\",
+        "outputPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sirac Huseynov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Data\\ProniaMVCProject.Data.csproj": {
-                "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Data\\ProniaMVCProject.Data.csproj"
+              "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Data\\ProniaMVCProject.Data.csproj": {
+                "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Data\\ProniaMVCProject.Data.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj": {
+    "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj",
         "projectName": "ProniaMVCProject.Core",
-        "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj",
+        "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj",
         "packagesPath": "C:\\Users\\Sirac Huseynov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Core\\obj\\",
+        "outputPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sirac Huseynov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Data\\ProniaMVCProject.Data.csproj": {
+    "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Data\\ProniaMVCProject.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Data\\ProniaMVCProject.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Data\\ProniaMVCProject.Data.csproj",
         "projectName": "ProniaMVCProject.Data",
-        "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Data\\ProniaMVCProject.Data.csproj",
+        "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Data\\ProniaMVCProject.Data.csproj",
         "packagesPath": "C:\\Users\\Sirac Huseynov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Data\\obj\\",
+        "outputPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sirac Huseynov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -158,8 +158,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj": {
-                "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj"
+              "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj": {
+                "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj"
               }
             }
           }
@@ -214,14 +214,14 @@
         }
       }
     },
-    "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject\\ProniaMVCProject.csproj": {
+    "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject\\ProniaMVCProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject\\ProniaMVCProject.csproj",
+        "projectUniqueName": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject\\ProniaMVCProject.csproj",
         "projectName": "ProniaMVCProject",
-        "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject\\ProniaMVCProject.csproj",
+        "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject\\ProniaMVCProject.csproj",
         "packagesPath": "C:\\Users\\Sirac Huseynov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject\\obj\\",
+        "outputPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sirac Huseynov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -238,8 +238,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Business\\ProniaMVCProject.Business.csproj": {
-                "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCProject\\ProniaMVCProject.Business\\ProniaMVCProject.Business.csproj"
+              "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Business\\ProniaMVCProject.Business.csproj": {
+                "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Business\\ProniaMVCProject.Business.csproj"
               }
             }
           }
