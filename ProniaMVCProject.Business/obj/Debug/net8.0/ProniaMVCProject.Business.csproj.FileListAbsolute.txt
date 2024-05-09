@@ -1,0 +1,35 @@
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\bin\Debug\net8.0\ProniaMVCProject.Business.deps.json
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\bin\Debug\net8.0\ProniaMVCProject.Business.dll
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\bin\Debug\net8.0\ProniaMVCProject.Business.pdb
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\bin\Debug\net8.0\ProniaMVCProject.Core.dll
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\bin\Debug\net8.0\ProniaMVCProject.Data.dll
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\bin\Debug\net8.0\ProniaMVCProject.Data.pdb
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\bin\Debug\net8.0\ProniaMVCProject.Core.pdb
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMVCProject.Business.csproj.AssemblyReference.cache
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMVCProject.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMVCProject.Business.AssemblyInfoInputs.cache
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMVCProject.Business.AssemblyInfo.cs
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMVCProject.Business.csproj.CoreCompileInputs.cache
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMV.9DBD654B.Up2Date
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMVCProject.Business.dll
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\refint\ProniaMVCProject.Business.dll
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMVCProject.Business.pdb
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ref\ProniaMVCProject.Business.dll
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\bin\Debug\net8.0\ProniaMVCProject.Business.deps.json
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\bin\Debug\net8.0\ProniaMVCProject.Business.dll
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\bin\Debug\net8.0\ProniaMVCProject.Business.pdb
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\bin\Debug\net8.0\ProniaMVCProject.Core.dll
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\bin\Debug\net8.0\ProniaMVCProject.Data.dll
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\bin\Debug\net8.0\ProniaMVCProject.Data.pdb
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\bin\Debug\net8.0\ProniaMVCProject.Core.pdb
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMVCProject.Business.csproj.AssemblyReference.cache
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMVCProject.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMVCProject.Business.AssemblyInfoInputs.cache
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMVCProject.Business.AssemblyInfo.cs
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMVCProject.Business.csproj.CoreCompileInputs.cache
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMVCProject.Business.sourcelink.json
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMV.9DBD654B.Up2Date
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMVCProject.Business.dll
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\refint\ProniaMVCProject.Business.dll
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ProniaMVCProject.Business.pdb
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCProject\ProniaMVCProject.Business\obj\Debug\net8.0\ref\ProniaMVCProject.Business.dll
