@@ -6,14 +6,13 @@
             <form asp-action="DeletePost" method="post">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                        <h5 class="card-title">@Model.Name"</h5>
-                        <a asp-action="index" asp-controller="category" class="btn btn-outline-info">Go Back</a>
+                        <h5 class="card-title">@Model.Name</h5>
                         <input asp-for="@Model.Id" hidden value="@Model.Id" />
-                        <button type="submit" href="#" class="btn btn-outline-danger">Delete</button>
+                        <a asp-action="index" class="card-link btn btn-outline-info">Go back</a>
+                        <button type="submit" class="card-link btn btn-outline-danger">Delete</button>
                     </div>
                 </div>
             </form>
-
         </div>
     </div>
 </div>

@@ -35,7 +35,7 @@ namespace ProniaMVCProject.Business.Services.Concretes
         {
             Category category = _categoryRepository.Get(x => x.Id == id);
 
-            if (category == null) throw new NullReferenceException("Bele bir category movcud deyil");
+            if (category == null) throw new EntityNotFoundException("Bele bir category movcud deyil");
 
             _categoryRepository.Delete(category);
             _categoryRepository.Commit();
@@ -55,9 +55,9 @@ namespace ProniaMVCProject.Business.Services.Concretes
         {
             Category category = _categoryRepository.Get(x => x.Id == id);
 
-            if (category == null) throw new NullReferenceException("Bele bir category movcud deyil");
+            if (category == null) throw new EntityNotFoundException("Bele bir category movcud deyil");
 
-            if (!_categoryRepository.GetAll().Any(x => x.Name == category.Name))
+            if (!_categoryRepository.GetAll().Any(x => x.Name == newCategory.Name))
             {
                 category.Name = newCategory.Name;
             } 

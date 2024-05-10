@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProniaMVCProject.Business.Services.Abstracts;
+using ProniaMVCProject.Business.Services.Concretes;
 using ProniaMVCProject.Core.Models;
 
 namespace ProniaMVCProject.Areas.Admin.Controllers
@@ -8,58 +9,66 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;
-        public CategoryController(ICategoryService CategoryCategory)
+        public CategoryController(ICategoryService categoryService)
         {
-            _categoryService = CategoryCategory;
+            _categoryService = categoryService;
         }
         public IActionResult Index()
         {
-            var category = _categoryService.GetAllCategories();
-
-            return View(category);
+            var categories = _categoryService.GetAllCategories();
+            return View(categories);
         }
 
         public IActionResult Create()
         {
             return View();
         }
+
         [HttpPost]
-        public async Task<IActionResult> Create(Category Category)
+        public async Task<IActionResult> Create(Category category)
         {
-            await _categoryService.AddCategory(Category);
+            if (!ModelState.IsValid)
+                return View();
+
+
+            await _categoryService.AddCategory(category);
             return RedirectToAction("Index");
         }
-        public IActionResult Delete(int id)
-        {
-            var category = _categoryService.GetCategory(x => x.Id == id);
-            if (category == null)
-            {
-                throw new NullReferenceException("Bele bir Model yoxdur!!");
-            }
-            else
-            {
-                _categoryService.DeleteCategory(id);
-            }
-
-            return RedirectToAction("Index");
-        }
-
 
         public IActionResult Update(int id)
         {
-            var category = _categoryService.GetCategory(x => x.Id == id);
-            if (category == null)
-            {
-                throw new NullReferenceException("Bele bir User yoxdur!!");
-            }
-            return View(category);
+            var existCategory = _categoryService.GetCategory(x => x.Id == id);
+            if (existCategory == null) throw new NullReferenceException();
+
+            return View(existCategory);
         }
 
         [HttpPost]
-        public IActionResult Update(Category newCategory)
+        public IActionResult Update(Category category)
         {
-            _categoryService.UpdateCategory(newCategory.Id, newCategory);
+            _categoryService.UpdateCategory(category.Id, category);
             return RedirectToAction("Index");
         }
+
+        [HttpPost]
+        public IActionResult DeletePost(int id)
+        {
+            _categoryService.DeleteCategory(id);
+
+            return RedirectToAction("index");
+        }
+
+        public IActionResult Delete(int id)
+        {
+            var existCategory = _categoryService.GetCategory(x => x.Id == id);
+
+            if (existCategory == null)
+            {
+                return NotFound();
+            }
+
+            return View(existCategory);
+        }
+
     }
 }

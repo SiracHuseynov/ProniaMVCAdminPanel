@@ -54,8 +54,6 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
         }
 
 
-       
-
         public IActionResult Update(int id)
         {
             var existFeature = _featureService.GetFeature(x=> x.Id == id);
