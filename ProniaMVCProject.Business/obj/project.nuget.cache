@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xwkch8LkH1ziW3YwiOQGjWKR4ZjCr0fJscN2BS2AC/K8av8GOJ+0ZcfC39VhfMgmVLXLsTUaUPv55Aosy2Wh6A==",
+  "dgSpecHash": "aOaNfHw0sfolrWs+EyY4RXC3PZ9ig1o5ysAim6b3Fg1XZIgKd064Bg2/zYNey2TFVZsKf5seT/iq6rq82XWzKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Business\\ProniaMVCProject.Business.csproj",
+  "projectFilePath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCAdminPanel\\ProniaMVCProject.Business\\ProniaMVCProject.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sirac Huseynov\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Sirac Huseynov\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

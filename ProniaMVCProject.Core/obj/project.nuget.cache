@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/eYr+LSJRbyTjF8y6J9HbQWg/KFsQf4I9wKVuFrNsuZZRUFmh7zo9+Bd1nXSmtcpGa+B4hIc1Otns+e0dP4TSQ==",
+  "dgSpecHash": "uYEJfS+y83V35C394FgApcc4bzzeZ2QcvnJ2TANBPW62iOthTbroS+0zLInuEQqWB3pLu8LwAV7HBCv0++/ZAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj",
+  "projectFilePath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sirac Huseynov\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\Sirac Huseynov\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",

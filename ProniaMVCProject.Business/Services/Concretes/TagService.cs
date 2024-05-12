@@ -58,7 +58,7 @@ namespace ProniaMVCProject.Business.Services.Concretes
 
             if (tag == null) throw new NullReferenceException("Bele bir tag tapilmadi");
 
-            if (!_tagRepository.GetAll().Any(x => x.Name == tag.Name))
+            if (!_tagRepository.GetAll().Any(x => x.Name == tag.Name && tag.Id != x.Id))
             {
                 tag.Name = newTag.Name;
             }

@@ -33056,5 +33056,149 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProniaMVCProject.bundle.scp.css))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\17e91791-d3ed-4b70-abbe-c8a5223bd85b.pngLana-Del-Rey.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProniaMVCProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProniaMVCProject</BasePath>
+      <RelativePath>uploads/sliders/17e91791-d3ed-4b70-abbe-c8a5223bd85b.pngLana-Del-Rey.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\17e91791-d3ed-4b70-abbe-c8a5223bd85b.pngLana-Del-Rey.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\207d2e74-3b7c-4ba5-89c4-e0c6e005b414.pngLana-Del-Rey.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProniaMVCProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProniaMVCProject</BasePath>
+      <RelativePath>uploads/sliders/207d2e74-3b7c-4ba5-89c4-e0c6e005b414.pngLana-Del-Rey.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\207d2e74-3b7c-4ba5-89c4-e0c6e005b414.pngLana-Del-Rey.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\22c6b61a-9d7b-485c-84da-c050fa6bbbb8.png398ae266-c803-483b-a033-d3f7ccf4559e_61a4fc46.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProniaMVCProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProniaMVCProject</BasePath>
+      <RelativePath>uploads/sliders/22c6b61a-9d7b-485c-84da-c050fa6bbbb8.png398ae266-c803-483b-a033-d3f7ccf4559e_61a4fc46.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\22c6b61a-9d7b-485c-84da-c050fa6bbbb8.png398ae266-c803-483b-a033-d3f7ccf4559e_61a4fc46.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\320a9743-4816-4c1b-95af-0b5f012470f4.jpgvangogg.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProniaMVCProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProniaMVCProject</BasePath>
+      <RelativePath>uploads/sliders/320a9743-4816-4c1b-95af-0b5f012470f4.jpgvangogg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\320a9743-4816-4c1b-95af-0b5f012470f4.jpgvangogg.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\405d33e7-c7ce-4cd7-bc55-1f4e005a16b3.png398ae266-c803-483b-a033-d3f7ccf4559e_61a4fc46.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProniaMVCProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProniaMVCProject</BasePath>
+      <RelativePath>uploads/sliders/405d33e7-c7ce-4cd7-bc55-1f4e005a16b3.png398ae266-c803-483b-a033-d3f7ccf4559e_61a4fc46.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\405d33e7-c7ce-4cd7-bc55-1f4e005a16b3.png398ae266-c803-483b-a033-d3f7ccf4559e_61a4fc46.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\80bf1c4c-b9c3-4651-b44b-950370ef94f8.png398ae266-c803-483b-a033-d3f7ccf4559e_61a4fc46.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProniaMVCProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProniaMVCProject</BasePath>
+      <RelativePath>uploads/sliders/80bf1c4c-b9c3-4651-b44b-950370ef94f8.png398ae266-c803-483b-a033-d3f7ccf4559e_61a4fc46.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\80bf1c4c-b9c3-4651-b44b-950370ef94f8.png398ae266-c803-483b-a033-d3f7ccf4559e_61a4fc46.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\a85945a6-fed9-4890-8d5c-09c261c7c0fe.pngLana-Del-Rey.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProniaMVCProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProniaMVCProject</BasePath>
+      <RelativePath>uploads/sliders/a85945a6-fed9-4890-8d5c-09c261c7c0fe.pngLana-Del-Rey.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\a85945a6-fed9-4890-8d5c-09c261c7c0fe.pngLana-Del-Rey.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\bfae4d09-a689-4889-93db-f08a94174cc1.png398ae266-c803-483b-a033-d3f7ccf4559e_61a4fc46.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProniaMVCProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProniaMVCProject</BasePath>
+      <RelativePath>uploads/sliders/bfae4d09-a689-4889-93db-f08a94174cc1.png398ae266-c803-483b-a033-d3f7ccf4559e_61a4fc46.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\bfae4d09-a689-4889-93db-f08a94174cc1.png398ae266-c803-483b-a033-d3f7ccf4559e_61a4fc46.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\c0cf143c-ae78-4a8f-80d8-fee55398c68e.pngLana-Del-Rey.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProniaMVCProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProniaMVCProject</BasePath>
+      <RelativePath>uploads/sliders/c0cf143c-ae78-4a8f-80d8-fee55398c68e.pngLana-Del-Rey.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\c0cf143c-ae78-4a8f-80d8-fee55398c68e.pngLana-Del-Rey.png))</OriginalItemSpec>
+    </StaticWebAsset>
   </ItemGroup>
 </Project>

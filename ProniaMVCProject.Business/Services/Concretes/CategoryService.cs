@@ -53,14 +53,18 @@ namespace ProniaMVCProject.Business.Services.Concretes
 
         public void UpdateCategory(int id, Category newCategory)
         {
-            Category category = _categoryRepository.Get(x => x.Id == id);
+            Category category = _categoryRepository.Get(x => x.Id == id );
 
             if (category == null) throw new EntityNotFoundException("Bele bir category movcud deyil");
 
-            if (!_categoryRepository.GetAll().Any(x => x.Name == newCategory.Name))
+            if (!_categoryRepository.GetAll().Any(x => x.Name == newCategory.Name &&  x.Id != category.Id))
             {
                 category.Name = newCategory.Name;
             } 
+            else
+            {
+                throw new DuplicateException("Category adi eyni ola bilmez!");
+            }
             _categoryRepository.Commit();
         }
     }

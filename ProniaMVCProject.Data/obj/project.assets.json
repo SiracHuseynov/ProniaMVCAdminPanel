@@ -4166,11 +4166,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Data\\ProniaMVCProject.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCAdminPanel\\ProniaMVCProject.Data\\ProniaMVCProject.Data.csproj",
       "projectName": "ProniaMVCProject.Data",
-      "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Data\\ProniaMVCProject.Data.csproj",
+      "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCAdminPanel\\ProniaMVCProject.Data\\ProniaMVCProject.Data.csproj",
       "packagesPath": "C:\\Users\\Sirac Huseynov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Data\\obj\\",
+      "outputPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCAdminPanel\\ProniaMVCProject.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sirac Huseynov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4187,8 +4187,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj": {
-              "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj"
+            "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj": {
+              "projectPath": "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCAdminPanel\\ProniaMVCProject.Core\\ProniaMVCProject.Core.csproj"
             }
           }
         }

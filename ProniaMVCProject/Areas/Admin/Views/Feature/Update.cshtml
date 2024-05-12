@@ -7,19 +7,23 @@
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Icon</label>
                     <input type="text" asp-for="Icon" class="form-control" id="exampleInputEmail1">
+                    <span asp-validation-for="Icon"></span>
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Title</label>
                     <input type="text" asp-for="Title" class="form-control" id="exampleInputPassword1">
+                    <span asp-validation-for="Title"></span>
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Description</label>
                     <textarea rows="5" asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description"></span>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
     </div>
 </div>
+
 
 

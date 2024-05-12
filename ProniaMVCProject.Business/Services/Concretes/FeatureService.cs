@@ -1,4 +1,5 @@
-﻿using ProniaMVCProject.Business.Services.Abstracts;
+﻿using ProniaMVCProject.Business.Exceptions;
+using ProniaMVCProject.Business.Services.Abstracts;
 using ProniaMVCProject.Core.Models;
 using ProniaMVCProject.Core.RepositoryAbstracts;
 using System;
@@ -27,7 +28,7 @@ namespace ProniaMVCProject.Business.Services.Concretes
         {
             var existFeature = _featureRepository.Get(x => x.Id == id);
 
-            if (existFeature == null) throw new NullReferenceException("Feature tapilmadi");
+            if (existFeature == null) throw new EntityNotFoundException("Feature tapilmadi");
 
             _featureRepository.Delete(existFeature);
             _featureRepository.Commit();
@@ -48,7 +49,7 @@ namespace ProniaMVCProject.Business.Services.Concretes
         {
             var oldFeature = _featureRepository.Get(x => x.Id == id);
 
-            if (oldFeature == null) throw new NullReferenceException("Feature tapilmadi");
+            if (oldFeature == null) throw new EntityNotFoundException("Feature tapilmadi");
 
             oldFeature.Icon = newFeature.Icon;
             oldFeature.Title = newFeature.Title;

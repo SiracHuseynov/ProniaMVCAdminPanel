@@ -36,3 +36,16 @@ C:\Users\Sirac Huseynov\Desktop\ProniaMVCAdminPanel\ProniaMVCProject.Core\obj\De
 C:\Users\Sirac Huseynov\Desktop\ProniaMVCAdminPanel\ProniaMVCProject.Core\obj\Debug\net8.0\refint\ProniaMVCProject.Core.dll
 C:\Users\Sirac Huseynov\Desktop\ProniaMVCAdminPanel\ProniaMVCProject.Core\obj\Debug\net8.0\ProniaMVCProject.Core.pdb
 C:\Users\Sirac Huseynov\Desktop\ProniaMVCAdminPanel\ProniaMVCProject.Core\obj\Debug\net8.0\ref\ProniaMVCProject.Core.dll
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCAdminPanel\ProniaMVCProject.Core\bin\Debug\net8.0\ProniaMVCProject.Core.deps.json
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCAdminPanel\ProniaMVCProject.Core\bin\Debug\net8.0\ProniaMVCProject.Core.dll
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCAdminPanel\ProniaMVCProject.Core\bin\Debug\net8.0\ProniaMVCProject.Core.pdb
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCAdminPanel\ProniaMVCProject.Core\obj\Debug\net8.0\ProniaMVCProject.Core.csproj.AssemblyReference.cache
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCAdminPanel\ProniaMVCProject.Core\obj\Debug\net8.0\ProniaMVCProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCAdminPanel\ProniaMVCProject.Core\obj\Debug\net8.0\ProniaMVCProject.Core.AssemblyInfoInputs.cache
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCAdminPanel\ProniaMVCProject.Core\obj\Debug\net8.0\ProniaMVCProject.Core.AssemblyInfo.cs
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCAdminPanel\ProniaMVCProject.Core\obj\Debug\net8.0\ProniaMVCProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCAdminPanel\ProniaMVCProject.Core\obj\Debug\net8.0\ProniaMVCProject.Core.sourcelink.json
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCAdminPanel\ProniaMVCProject.Core\obj\Debug\net8.0\ProniaMVCProject.Core.dll
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCAdminPanel\ProniaMVCProject.Core\obj\Debug\net8.0\refint\ProniaMVCProject.Core.dll
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCAdminPanel\ProniaMVCProject.Core\obj\Debug\net8.0\ProniaMVCProject.Core.pdb
+C:\Users\Sirac Huseynov\Desktop\codee's repo\ProniaMVCAdminPanel\ProniaMVCProject.Core\obj\Debug\net8.0\ref\ProniaMVCProject.Core.dll

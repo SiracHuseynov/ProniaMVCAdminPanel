@@ -31,6 +31,10 @@ namespace ProniaMVCProject
             builder.Services.AddScoped<IProductRepository, ProductRepository>();
             builder.Services.AddScoped<ITagRepository, TagRepository>();
 
+            builder.Services.AddScoped<ISliderRepository, SliderRepository>();
+            builder.Services.AddScoped<ISliderService, SliderService>();
+
+
 
 
             var app = builder.Build();

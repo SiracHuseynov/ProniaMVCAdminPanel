@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProniaMVCProject.Business.Exceptions;
 using ProniaMVCProject.Business.Services.Abstracts;
 using ProniaMVCProject.Business.Services.Concretes;
 using ProniaMVCProject.Core.Models;
@@ -30,8 +31,16 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View();
 
+            try
+            {
+                await _categoryService.AddCategory(category);
+            }
+            catch (DuplicateException ex)
+            {
+                ModelState.AddModelError("Name", ex.Message);
+                return View();
+            }
 
-            await _categoryService.AddCategory(category);
             return RedirectToAction("Index");
         }
 
@@ -46,14 +55,37 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Update(Category category)
         {
-            _categoryService.UpdateCategory(category.Id, category);
+
+            if(!ModelState.IsValid)
+                return View();  
+            try
+            {
+                _categoryService.UpdateCategory(category.Id, category);
+            }
+            catch (EntityNotFoundException ex)
+            {
+                return NotFound();
+            }
+            catch(DuplicateException ex)
+            {
+                ModelState.AddModelError("Name", ex.Message);
+                return View();
+            }
+
             return RedirectToAction("Index");
         }
 
         [HttpPost]
         public IActionResult DeletePost(int id)
         {
-            _categoryService.DeleteCategory(id);
+            try
+            {
+                _categoryService.DeleteCategory(id);
+            }
+            catch (EntityNotFoundException ex)
+            {
+                return NotFound();
+            }
 
             return RedirectToAction("index");
         }
