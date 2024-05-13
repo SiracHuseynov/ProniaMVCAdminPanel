@@ -2761,7 +2761,10 @@
         },
         "runtime": {
           "bin/placeholder/ProniaMVCProject.Business.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "ProniaMVCProject.Core/1.0.0": {
         "type": "project",

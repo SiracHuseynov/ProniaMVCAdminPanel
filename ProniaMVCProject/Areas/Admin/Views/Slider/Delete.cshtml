@@ -1,21 +1,21 @@
 ﻿@model Slider
 
-
 <div class="container">
     <div class="row">
-        <div class="col-12">
+        <div col-12>
             <form asp-action="DeletePost" method="post">
                 <div class="card" style="width: 18rem;">
+                    <img src="~/uploads/sliders/@Model.ImageUrl" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted">@Model.Title</h6>
+                        <h5 class="card-title">@Model.Title</h5>
                         <p class="card-text">@Model.Description</p>
-                        <a asp-action="index" asp-controller="slider" class="btn btn-outline-info">Go Back</a>
+                        <p class="card-text">@Model.RedirectUrl</p>
+                        <a asp-action="index" asp-controller="Slider" class="btn btn-outline-info">Go Back</a>
                         <input asp-for="@Model.Id" hidden value="@Model.Id" />
-                        <button type="submit"  class="btn btn-outline-danger">Delete</button>
+                        <button type="submit" class="btn btn-outline-danger">Delete</button>
                     </div>
                 </div>
             </form>
-
         </div>
     </div>
 </div>

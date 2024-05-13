@@ -1,4 +1,6 @@
-﻿using ProniaMVCProject.Business.Exceptions;
+﻿using Microsoft.AspNetCore.Hosting;
+using ProniaMVCProject.Business.Exceptions;
+using ProniaMVCProject.Business.Extensions;
 using ProniaMVCProject.Business.Services.Abstracts;
 using ProniaMVCProject.Core.Models;
 using ProniaMVCProject.Core.RepositoryAbstracts;
@@ -13,33 +15,20 @@ namespace ProniaMVCProject.Business.Services.Concretes
     public class SliderService : ISliderService
     {
         private readonly ISliderRepository _sliderRepository;
+        private readonly IWebHostEnvironment _env;
 
-        public SliderService(ISliderRepository sliderRepository)
+        public SliderService(ISliderRepository sliderRepository, IWebHostEnvironment env)
         {
             _sliderRepository = sliderRepository;
+            _env = env;
         }
 
         public async Task AddSlider(Slider slider)
         {
-            if (slider.ImageFile.ContentType != "image/png" && slider.ImageFile.ContentType != "image/jpeg")
-                throw new ImageContextException("File formati duzgun deyil!");
+            if (slider.ImageFile == null)
+                throw new FileNullReferenceException("File bos ola bilmez!");
 
-            if (slider.ImageFile.Length > 2097152)
-                throw new ImageSizeException("Seklin olcusu max 2mb ola biler!");
-
-            string fileName = Guid.NewGuid().ToString() + Path.GetExtension(slider.ImageFile.FileName);
-
-            fileName = fileName.Length + slider.ImageFile.FileName.Length > 100 ?
-                slider.ImageFile.FileName.Substring(0, 55) + fileName : fileName + slider.ImageFile.FileName;
-
-            string path = "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCAdminPanel\\ProniaMVCProject\\wwwroot\\" + "uploads\\sliders\\" + fileName;
-
-            using (FileStream fileStream = new FileStream(path, FileMode.Create))
-            {
-                slider.ImageFile.CopyTo(fileStream);
-            }
-
-            slider.ImageUrl = fileName;
+            slider.ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads\sliders", slider.ImageFile);
 
             await _sliderRepository.AddAsync(slider);
             await _sliderRepository.CommitAsync();
@@ -47,12 +36,14 @@ namespace ProniaMVCProject.Business.Services.Concretes
 
         public void DeleteSlider(int id)
         {
-            var slider = _sliderRepository.Get(x => x.Id == id);
+            var existSlider = _sliderRepository.Get(x=> x.Id == id);
+            if (existSlider == null) throw new EntityNotFoundException("Slider tapilmadi");
 
-            if (slider == null) throw new EntityNotFoundException("Bele bir slider yoxdur!");
+            Helper.DeleteFile(_env.WebRootPath, @"uploads\sliders", existSlider.ImageUrl);
 
-            _sliderRepository.Delete(slider);
+            _sliderRepository.Delete(existSlider);
             _sliderRepository.Commit();
+
         }
 
         public List<Slider> GetAllSliders(Func<Slider, bool>? predicate = null)
@@ -68,40 +59,22 @@ namespace ProniaMVCProject.Business.Services.Concretes
         public void UpdateSlider(int id, Slider newSlider)
         {
             var oldSlider = _sliderRepository.Get(x => x.Id == id);
+            if (oldSlider == null) throw new EntityNotFoundException("Slider tapilmadi!");
 
-            if (oldSlider == null) throw new EntityNotFoundException("Bele bir slider yoxdur!");
-
-
-            if (newSlider.ImageFile.ContentType != "image/png" && newSlider.ImageFile.ContentType != "image/jpeg")
-                throw new ImageContextException("File formati duzgun deyil!");
-
-            if (newSlider.ImageFile.Length > 2097152)
-                throw new ImageSizeException("Seklin olcusu max 2mb ola biler!");
-
-
-            string fileName = Guid.NewGuid().ToString() + Path.GetExtension(newSlider.ImageFile.FileName);
-
-            fileName = fileName.Length + newSlider.ImageFile.FileName.Length > 100 ?
-                newSlider.ImageFile.FileName.Substring(0, 55) + fileName : fileName + newSlider.ImageFile.FileName;
-
-            string path = "C:\\Users\\Sirac Huseynov\\Desktop\\codee's repo\\ProniaMVCAdminPanel\\ProniaMVCProject\\wwwroot\\" + "uploads\\sliders\\" + fileName;
-
-            using (FileStream fileStream = new FileStream(path, FileMode.Create))
+            if(newSlider.ImageFile != null)
             {
-                newSlider.ImageFile.CopyTo(fileStream);
+
+                Helper.DeleteFile(_env.WebRootPath, @"uploads\sliders", oldSlider.ImageUrl);
+
+                oldSlider.ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads\sliders", newSlider.ImageFile);
+                 
             }
-
-
-            newSlider.ImageUrl = fileName;
 
             oldSlider.Title = newSlider.Title;
             oldSlider.Description = newSlider.Description;
             oldSlider.RedirectUrl = newSlider.RedirectUrl;
-            oldSlider.ImageUrl = newSlider.ImageUrl;
-            oldSlider.ImageFile = newSlider.ImageFile;
 
             _sliderRepository.Commit();
-
 
         }
 

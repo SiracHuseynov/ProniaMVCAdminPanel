@@ -28,7 +28,8 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Slider slider)
         {
-            if (slider == null) return NotFound();
+            if (!ModelState.IsValid)
+                return View();
 
             try
             {
@@ -36,11 +37,22 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
             }
             catch (ImageContextException ex)
             {
-                ModelState.AddModelError("slider.ImageFile.ContentType", ex.Message);
+                ModelState.AddModelError("ImageFile", ex.Message);
+                return View();
             }
             catch (ImageSizeException ex)
             {
-                ModelState.AddModelError("slider.ImageFile.Length", ex.Message);
+                ModelState.AddModelError("ImageFile", ex.Message);
+                return View();
+            }
+            catch (FileNullReferenceException ex)
+            {
+                ModelState.AddModelError("ImageFile", ex.Message);
+                return View();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
 
             return RedirectToAction("Index");
@@ -48,58 +60,52 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
 
         public IActionResult Update(int id)
         {
-            var slider = _sliderService.GetSlider(x => x.Id == id);
+            var existSlider = _sliderService.GetSlider(x => x.Id == id);
+            if (existSlider == null) return NotFound();
+            return View(existSlider);
 
-            if (slider == null) return NotFound();
-
-            return View(slider);
         }
-
 
         [HttpPost]
         public IActionResult Update(Slider slider)
         {
-            if ((!ModelState.IsValid))
-            {
+            if (!ModelState.IsValid)
                 return View();
-            }
 
             try
             {
                 _sliderService.UpdateSlider(slider.Id, slider);
             }
-            catch (EntityNotFoundException ex)
-            {
-                return NotFound();
-            }
             catch (ImageContextException ex)
             {
-                ModelState.AddModelError("slider.ImageFile.ContentType", ex.Message);
+                ModelState.AddModelError("ImageFile", ex.Message);
                 return View();
             }
             catch (ImageSizeException ex)
             {
-                ModelState.AddModelError("slider.ImageFile.Length", ex.Message);
+                ModelState.AddModelError("ImageFile", ex.Message);
                 return View();
             }
+            catch(Exception ex)
+            {
+                BadRequest(ex.Message);
+            }
 
-            return RedirectToAction("index");
 
+            return RedirectToAction("Index");
         }
 
         public IActionResult Delete(int id)
         {
-            var slider = _sliderService.GetSlider(x => x.Id == id);
-
-            if (slider == null) return NotFound();
-
-            return View(slider);
-
+            var existSlider = _sliderService.GetSlider(x => x.Id == id);
+            if (existSlider == null) return NotFound();
+            return View(existSlider);
         }
 
         [HttpPost]
         public IActionResult DeletePost(int id)
         {
+
             try
             {
                 _sliderService.DeleteSlider(id);
@@ -108,10 +114,17 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
             {
                 return NotFound();
             }
+            catch(Business.Exceptions.FileNotFoundException ex)
+            {
+                return NotFound();
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
 
             return RedirectToAction("Index");
         }
-
 
 
     }
