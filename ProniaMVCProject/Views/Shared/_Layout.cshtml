@@ -153,9 +153,12 @@
                             >
                           </li>
                           <li>
-                            <a class="dropdown-item" href="login-register.html"
-                              >Login | Register</a
-                            >
+                            <a class="dropdown-item" asp-action="Register" asp-controller="Account"
+                              >Register </a>
+                              <a class="dropdown-item" asp-action="Login" asp-controller="Account"
+                              >Login </a>
+                             <a class="dropdown-item" asp-action="SignOut" asp-controller="Account"
+                              >Sign Out </a> 
                           </li>
                         </ul>
                       </li>

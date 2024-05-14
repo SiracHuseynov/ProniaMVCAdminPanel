@@ -1,6 +1,8 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ProniaMVCProject.Business.Services.Abstracts;
 using ProniaMVCProject.Business.Services.Concretes;
+using ProniaMVCProject.Core.Models;
 using ProniaMVCProject.Core.RepositoryAbstracts;
 using ProniaMVCProject.Data.DAL;
 using ProniaMVCProject.Data.RepositoryConcretes;
@@ -20,6 +22,19 @@ namespace ProniaMVCProject
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("default"));
             });
+
+            builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+            {
+                opt.Password.RequireNonAlphanumeric = true;
+                opt.Password.RequireLowercase = true;
+                opt.Password.RequireUppercase = true;
+                opt.Password.RequireDigit = true;
+                opt.Password.RequiredLength = 8;
+
+                opt.User.RequireUniqueEmail = false;
+
+
+            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
@@ -48,6 +63,7 @@ namespace ProniaMVCProject
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ProniaMVCProject.Business.Exceptions;
 using ProniaMVCProject.Business.Services.Abstracts;
 using ProniaMVCProject.Core.Models;
@@ -6,6 +7,7 @@ using ProniaMVCProject.Core.Models;
 namespace ProniaMVCProject.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin")] 
     public class SliderController : Controller
     {
         private readonly ISliderService _sliderService;
