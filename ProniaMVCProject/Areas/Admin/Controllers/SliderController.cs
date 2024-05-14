@@ -76,6 +76,10 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
             {
                 _sliderService.UpdateSlider(slider.Id, slider);
             }
+            catch(EntityNotFoundException ex)
+            {
+                return NotFound();
+            }
             catch (ImageContextException ex)
             {
                 ModelState.AddModelError("ImageFile", ex.Message);
@@ -86,9 +90,14 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
                 ModelState.AddModelError("ImageFile", ex.Message);
                 return View();
             }
+            catch(Business.Exceptions.FileNotFoundException ex)
+            {
+                ModelState.AddModelError("ImageFile", ex.Message);
+                return View();
+            }
             catch(Exception ex)
             {
-                BadRequest(ex.Message);
+                return BadRequest(ex.Message);
             }
 
 
